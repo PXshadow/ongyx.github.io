@@ -11,15 +11,12 @@ The projects below are chronologically ordered (most recent first).
 Python API for the [VGMusic](https://vgmusic.com) website.
 vgmusic.py also has a CLI and a (wip) REST interface, besides the importable `vgmusic` module.
 
-<details>
-<summary>Features:<summary>
+## Features
 
 - Search for songs within the VGMusic database efficiently using functions/regexes
 - Automate downloading songs (imagine opening them one tab at a time...)
 - `concurrent.futures` support baked in for faster parsing and downloading
 - Database saved as a JSON file `index.json`, so you can use the excellent [jq](https://stedolan.github.io/jq/) if you want!
-
-</details>
 
 # [otah](https://github.com/ongyx/otah)
 
