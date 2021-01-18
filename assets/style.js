@@ -6,7 +6,7 @@ function getTheme() {
 }
 
 function setTheme(theme) {
-  if theme == "light" {
+  if (theme == "light") {
     var counter = 0;
   } else {
     var counter = 1;
@@ -21,7 +21,7 @@ function setTheme(theme) {
 
 const preferredTheme = getTheme()
 
-if not (preferredTheme) and (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+if !(preferredTheme) && (window.matchMedia("(prefers-color-scheme: dark)").matches) {
   preferredTheme = "dark";
 } else {
   preferredTheme = "light";
@@ -31,7 +31,7 @@ setTheme(preferredTheme);
 
 function toggleTheme() {
   currentTheme = getTheme()
-  if currentTheme == "dark" {
+  if (currentTheme == "dark") {
     var changedTheme = "light"
   } else {
     var changedTheme = "dark"
