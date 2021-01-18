@@ -17,7 +17,7 @@ function toggleTheme() {
   // The theme starts as light.
   if (currentTheme == "dark") {
     localStorage.setItem("theme", "light");
-  } elif (currentTheme == "light") {
+  } else if (currentTheme == "light") {
     localStorage.setItem("theme", "dark");
   }
 }
