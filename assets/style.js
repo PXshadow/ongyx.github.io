@@ -1,13 +1,25 @@
 // Toggles dark mode and stuff.
 // css-tricks.com/a-complete-guide-to-dark-mode-on-the-web
 
-
-function toggleTheme() {
-  document.documentElement.classList.toggle("dark-mode");
+function getTheme() {
+  currentTheme = localStorage.getItem("theme");
+  if (currentTheme) {
+    return currentTheme;
+  } else {
+    return "light";  // light by default
+  }
 }
 
-function getTheme() {
-  return localStorage.getItem("theme");
+function toggleTheme() {
+  const currentTheme = getTheme();
+  document.documentElement.classList.toggle("dark-mode");
+
+  // The theme starts as light.
+  if (currentTheme == "dark") {
+    localStorage.setItem("theme", "light");
+  } elif (currentTheme == "light") {
+    localStorage.setItem("theme", "dark");
+  }
 }
 
 function setTheme(theme) {
@@ -15,17 +27,12 @@ function setTheme(theme) {
     return;
   }
   toggleTheme();
-  localStorage.setItem("theme", theme);
 }
 
 var preferredTheme = getTheme();
 
-if (!preferredTheme) {  // check whether it has been set before
-  if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-    preferredTheme = "dark";
-  } else {
-    preferredTheme = "light";
-  }
+if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+  preferredTheme = "dark";
 }
 
 setTheme(preferredTheme);
