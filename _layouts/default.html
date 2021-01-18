@@ -9,12 +9,13 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
-    <meta name="theme-color" content="#000000">
+    <meta name="theme-color" content="#778899">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png">
   </head>
 
   <body>
-    <div id="bar"></div>
+    <!--what is this bar for??-->
+    <!--<div id="bar"></div>-->
     <div class="wrapper-container">
       <div class="wrapper-masthead">
         <div class="container">
@@ -27,6 +28,7 @@
             </div>
 
             <nav>
+              <button type="button" onclick="document.documentElement.classList.toggle('dark-mode')">
               <a href="{{ site.baseurl }}/">Home</a>
               <a href="{{ site.baseurl }}/projects">Projects</a>
               <a href="{{ site.baseurl }}/search">Search</a>
