@@ -19,9 +19,9 @@ function setTheme(theme) {
   localStorage.setItem("theme", theme);
 }
 
-const preferredTheme = getTheme()
+var preferredTheme = getTheme()
 
-if !(preferredTheme) && (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+if (!preferredTheme && window.matchMedia("(prefers-color-scheme: dark)").matches) {
   preferredTheme = "dark";
 } else {
   preferredTheme = "light";
