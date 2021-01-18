@@ -20,10 +20,12 @@ function setTheme(theme) {
 
 var preferredTheme = getTheme();
 
-if (!preferredTheme && window.matchMedia("(prefers-color-scheme: dark)").matches) {
-  preferredTheme = "dark";
-} else {
-  preferredTheme = "light";
+if (!preferredTheme) {  // check whether it has been set before
+  if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    preferredTheme = "dark";
+  } else {
+    preferredTheme = "light";
+  }
 }
 
 setTheme(preferredTheme);
