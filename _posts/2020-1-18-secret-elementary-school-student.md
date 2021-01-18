@@ -3,7 +3,7 @@ layout: post
 title: Secret Elementary School Student by inabakumori (Eng. Translation)
 ---
 
-[original video](https://youtube.com/?v=wdUCRDvFv3Q)
+[original video](https://youtube.com/watch?v=wdUCRDvFv3Q)
 
 Jolted awake from dream, I was elementary school student\
 Breathing and living sustained through hirigana\
