@@ -24,7 +24,7 @@ html {
 // dev.to/pqina/poor-man-s-dark-mode-using-css-filter221n
 
 .dark-mode img {
-  filter: invert(100%) hue-rotate(180deg);
+  filter: hue-rotate(180deg) invert(100%);
 }
 
 .dark-mode {
