@@ -3,11 +3,9 @@ layout: post
 title: Lagtrain (Eng. Translation)
 ---
 
-Song: [ラグトレイン (Ragutorein)](https://www.youtube.com/watch?v=UnIhRpIT7nc)
-
-Artist: [inabakumori](https://www.youtube.com/channel/UCNElM45JypxqAR73RoUQ10g)
-
-Original Translation: [AngelSubs](https://vocaloidlyrics.fandom.com/wiki/%E3%83%A9%E3%82%B0%E3%83%88%E3%83%AC%E3%82%A4%E3%83%B3_(Lag_Train))
+| Song | Artist | Original Translation |
+| ---- | ------ | -------------------- |
+| [ラグトレイン (Ragutorein)](https://www.youtube.com/watch?v=UnIhRpIT7nc) | [inabakumori](https://www.youtube.com/channel/UCNElM45JypxqAR73RoUQ10g) | [AngelSubs](https://vocaloidlyrics.fandom.com/wiki/%E3%83%A9%E3%82%B0%E3%83%88%E3%83%AC%E3%82%A4%E3%83%B3_(Lag_Train)) |
 
 (Chorus)\
 The train bridging the chasm between cities\
@@ -30,7 +28,7 @@ Look, as the street corner on duty stares back, only to restrain you
 
 (Chorus)
 
-(Chorus 2)
+(Chorus 2)\
 Every dream hurting, night by night but I sleep\
 Faking it's ok, dragging through this endless day\
 Scattered carelessly, the words that I have lost\

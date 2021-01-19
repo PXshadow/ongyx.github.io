@@ -3,11 +3,9 @@ layout: post
 title: Battling (I Will Fight) (Eng. Translation)
 ---
 
-Song: [戦ってしまうよ (Tatakatte Shimau Yo)](https://www.youtube.com/watch?v=UJdNqxOykw8)
-
-Artist: [gesunokiwamiotome](https://www.youtube.com/channel/UC0pHUMEOtul5NlaT-Rt-34w)
-
-Original Translation: Google Translate (lol)
+| Song | Artist | Original Translation |
+| ---- | ------ | -------------------- |
+| [戦ってしまうよ (Tatakatte Shimau Yo)](https://www.youtube.com/watch?v=UJdNqxOykw8) | [gesunokiwamiotome](https://www.youtube.com/channel/UC0pHUMEOtul5NlaT-Rt-34w) | Google Translate (lol) |
 
 Colliding like worlds, smelling an unintentional battle\
 A fleeting moment of touch, bold yet so familiar

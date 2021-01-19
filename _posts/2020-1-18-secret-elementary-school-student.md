@@ -3,11 +3,9 @@ layout: post
 title: Secret Elementary School Student (Eng. Translation)
 ---
 
-Song: [ひみつの小学生 (Himitsu No Shougakusei)](https://youtube.com/watch?v=wdUCRDvFv3Q)
-
-Artist: [inabakumori](https://www.youtube.com/channel/UCNElM45JypxqAR73RoUQ10g)
-
-Original Translation: [AngelSubs](https://vocaloidlyrics.fandom.com/wiki/%E3%81%B2%E3%81%BF%E3%81%A4%E3%81%AE%E5%B0%8F%E5%AD%A6%E7%94%9F_(Himitsu_no_Shougakusei))
+| Song | Artist | Original Translation |
+| ---- | ------ | -------------------- |
+| [ひみつの小学生 (Himitsu No Shougakusei)](https://youtube.com/watch?v=wdUCRDvFv3Q) | [inabakumori](https://www.youtube.com/channel/UCNElM45JypxqAR73RoUQ10g) | [AngelSubs](https://vocaloidlyrics.fandom.com/wiki/%E3%81%B2%E3%81%BF%E3%81%A4%E3%81%AE%E5%B0%8F%E5%AD%A6%E7%94%9F_(Himitsu_no_Shougakusei)) |
 
 Jolted awake from dream, I was elementary school student\
 Breathing and living sustained through hirigana\
