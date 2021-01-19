@@ -5,6 +5,8 @@ title: Secret Elementary School Student by inabakumori (Eng. Translation)
 
 [original video](https://youtube.com/watch?v=wdUCRDvFv3Q)
 
+Adapted from original translation by [AngelSubs](https://vocaloidlyrics.fandom.com/wiki/%E3%81%B2%E3%81%BF%E3%81%A4%E3%81%AE%E5%B0%8F%E5%AD%A6%E7%94%9F_(Himitsu_no_Shougakusei))
+
 Jolted awake from dream, I was elementary school student\
 Breathing and living sustained through hirigana\
 Perfect scores unattainable unless you concentrate\
@@ -39,7 +41,7 @@ Solve it with this voice I received, gift from you
 
 Growing up as an adult,\
 misplacing everything,\
-saying it'll all work out\
+saying it'll all work out
 
 Just a kid,\
 don't know why I know so much,\
