@@ -1,38 +1,39 @@
 // Toggles dark mode and stuff.
 // css-tricks.com/a-complete-guide-to-dark-mode-on-the-web
 
+function isActuallyDarkTheme() {
+  return (document.documentElement.classList.contains("dark-mode"))
+}
+
 function getTheme() {
-  currentTheme = localStorage.getItem("theme");
-  if (currentTheme) {
-    return currentTheme;
-  } else {
-    return "light";  // light by default
-  }
+  return (isActuallyDarkTheme() ? "dark" : "light")
+}
+
+function getThemePref() {
+  return localStorage.getItem("theme");
+}
+
+function getThemeOSPref() {
+  return (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")
 }
 
 function toggleTheme() {
-  const currentTheme = getTheme();
-  document.documentElement.classList.toggle("dark-mode");
+  document.documentElement.classList.toggle("dark-mode")
+  localStorage.setItem("theme", getTheme())
+}
 
-  // The theme starts as light.
-  if (currentTheme == "dark") {
-    localStorage.setItem("theme", "light");
-  } else if (currentTheme == "light") {
-    localStorage.setItem("theme", "dark");
+if (!getThemePref()) {
+  localStorage.setItem("theme", getThemeOSPref())
+}
+
+if (getTheme() != getThemePref()) {
+  toggleTheme()
+}
+
+document.addEventListener(
+  "DOMContentLoaded",  // wait for HTML to load, then we can add the button event.
+  function () {
+    const btn = document.querySelector(".switch");
+    btn.addEventListener("click", toggleTheme)
   }
-}
-
-function setTheme(theme) {
-  if (theme == getTheme()) {
-    return;
-  }
-  toggleTheme();
-}
-
-var preferredTheme = getTheme();
-
-if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-  preferredTheme = "dark";
-}
-
-setTheme(preferredTheme);
+)
