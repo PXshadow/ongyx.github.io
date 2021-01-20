@@ -33,7 +33,7 @@ Your destiny is not set in stone...
 
 (Chorus)
 
-We're now in the endgame
+We're now in the endgame\
 Not long until we reach checkmate
 
 Yeah, checkmate (x3)
