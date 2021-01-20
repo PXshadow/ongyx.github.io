@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Secret Elementary School Student (Eng. Translation)
+catagories: [Japanese, Song, Translation]
 ---
 
 | Song | Artist | Original Translation |

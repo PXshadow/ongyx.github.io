@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Lagtrain (Eng. Translation)
+catagories: [Japanese, Song, Translation]
 ---
 
 | Song | Artist | Original Translation |

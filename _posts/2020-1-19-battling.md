@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Battling (I Will Fight) (Eng. Translation)
+catagories: [Japanese, Song, Translation]
 ---
 
 | Song | Artist | Original Translation |
