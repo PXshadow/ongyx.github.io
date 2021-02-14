@@ -12,5 +12,17 @@ catagories: [Japanese, Song, Translation]
 
 I can't be anyone other than me
 
-I can't be anyone other than me
-It should be obvious, but people fail to see
+Over and over, crying the nights away\
+Living my life, continuing on, even today\
+Hoping that tomorrow will bring a better start\
+Hiding behind mirrors, my sword and shield
+
+Reflected, my visage in the shards of glass\
+Heart breaking, threatening to tear me apart\
+Closed my eyes, drowning in a fitful sleep\
+Deluding myself that tomorrow won't be that bad
+
+I can't be anyone other than me\
+It should be obvious, but they all fail to see\
+Arranging feelings that I refuse to acknowledge\
+Is it okay to yearn for a normal life?
